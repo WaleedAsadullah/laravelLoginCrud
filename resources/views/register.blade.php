@@ -7,19 +7,19 @@
 @csrf
 <div class="col-md-12">
     <label for="inputEmail4" class="form-label">Name</label>
-    <input type="text" class="form-control" name="name" >
+    <input type="text" class="form-control" required="" name="name" >
   </div>
   <div class="col-md-12">
     <label for="inputEmail4" class="form-label">Phone</label>
-    <input type="text" class="form-control" name="phone" >
+    <input type="text" class="form-control" required="" name="phone" >
   </div>
   <div class="col-md-12">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" name="email" >
+    <input type="email" class="form-control" required="" name="email" >
   </div>
   <div class="col-md-12">
     <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" name="pass" >
+    <input type="password" class="form-control" required="" name="pass" >
   </div>
 
   <div class="col-12">

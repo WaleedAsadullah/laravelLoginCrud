@@ -18,19 +18,19 @@
 @csrf
 <div class="col-md-12">
     <label for="" class="form-label">Name</label>
-    <input type="text" class="form-control" name="name" >
+    <input type="text" class="form-control" required="" name="name" placeholder="Enter name" >
   </div>
   <div class="col-md-12">
     <label for="" class="form-label">Phone</label>
-    <input type="text" class="form-control" name="phone" >
+    <input type="text" class="form-control" required="" name="phone" placeholder="Enter phone/cell">
   </div>
   <div class="col-md-12">
     <label for="" class="form-label">Position</label>
-    <input type="text" class="form-control" name="position" >
+    <input type="text" class="form-control" required="" name="position" placeholder="Enter position" >
   </div>
   <div class="col-md-12">
     <label for="inputPassword4" class="form-label">Salary</label>
-    <input type="number" class="form-control" name="salary" >
+    <input type="number" class="form-control" required="" name="salary" placeholder="Enter salary">
   </div>
 
   <div class="col-12">
